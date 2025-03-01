@@ -1,51 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Physics Lab Projects</title>
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-    <header>
-        <h1>Welcome to Physics Lab Projects</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-        <h2>Simulations</h2>
-        <div class="simulation-list">
-            <a href="simulations/collision.html" class="simulation-card">
-                <h3>Collision</h3>
-                <p>Explore the physics of collisions.</p>
-            </a>
-            <a href="simulations/my-solar-system.html" class="simulation-card">
-                <h3>My Solar System</h3>
-                <p>Build your own solar system and observe orbital mechanics.</p>
-            </a>
-            <a href="simulations/gravity-force.html" class="simulation-card">
-                <h3>Gravity Force</h3>
-                <p>Understand the force of gravity between objects.</p>
-            </a>
-            <a href="simulations/ohms-law.html" class="simulation-card">
-                <h3>Ohm's Law</h3>
-                <p>Learn about voltage, current, and resistance.</p>
-            </a>
-            <a href="simulations/resistance.html" class="simulation-card">
-                <h3>Resistance</h3>
-                <p>Experiment with electrical resistance.</p>
-            </a>
-        </div>
-    </main>
-
-    <footer>
-        <p>&copy; 2025 Physics Lab Projects</p>
-    </footer>
-</body>
-</html>
+<header>
+    <nav class="navbar">
+        <div class="logo">Science Lab</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="dropdown">
+                <a href="#">Simulations ▾</a>
+                <ul class="dropdown-menu">
+                    <li><a href="simulations/collision.html">Collision</a></li>
+                    <li><a href="simulations/solar-system.html">Solar System</a></li>
+                    <li><a href="simulations/gravity-force.html">Gravity</a></li>
+                    <li><a href="simulations/ohms-law.html">Ohm's Law</a></li>
+                    <li><a href="simulations/resistance.html">Resistance</a></li>
+                </ul>
+            </li>
+        </ul>
+        <div class="toggle-dark-mode" onclick="toggleDarkMode()">🌙</div>
+    </nav>
+</header>
